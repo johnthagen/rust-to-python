@@ -36,7 +36,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Nox]: https://nox.thea.codes/en/stable/
 
 > For a Python project example that incorporates these tools, see 
-> <https://github.com/johnthagen/python-blueprint>.
+> [python-blueprint](https://github.com/johnthagen/python-blueprint).
 
 # Environments
 
