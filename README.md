@@ -50,6 +50,27 @@ This repository provides a mapping from Rust tooling and language features to Py
 [MicroPython]: https://micropython.org/
 [CircuitPython]: https://circuitpython.org/
 
+# Language Features
+
+| Feature | Rust | Python
+| - | - | -
+| Interface | [`trait`][trait] | [`Protocol`][Protocol]
+| Generics | [`<T>`][Rust Generic] | [`Generic`][Generic]
+| Algebraic Data Type | [`enum`][enum] | [`Enum`][Enum], [`Union` of `dataclass`][union-dataclass]
+| Fixed-sized Numerics | `u8`, `u16`, etc. | [NumPy Data Types][NumPy Data Types]
+| Foreign Function Interface | [FFI][Rust FFI] | [CFFI][CFFI]
+
+[trait]: https://doc.rust-lang.org/book/ch10-02-traits.html
+[Protocol]: https://docs.python.org/3/library/typing.html#typing.Protocol
+[Rust Generic]: https://doc.rust-lang.org/book/ch10-01-syntax.html
+[Generic]: https://docs.python.org/3/library/typing.html#typing.Generic
+[enum]: https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html
+[Enum]: https://docs.python.org/3/library/enum.html
+[union-dataclass]: https://stackoverflow.com/a/71519690
+[NumPy Data Types]: https://numpy.org/doc/stable/user/basics.types.html
+[Rust FFI]: https://doc.rust-lang.org/nomicon/ffi.html
+[CFFI]: https://cffi.readthedocs.io/en/latest/
+
 # Rust/Python Interop
 
 - [PyO3](https://pyo3.rs/)
