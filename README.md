@@ -90,3 +90,8 @@ This repository provides a mapping from Rust tooling and language features to Py
 # Rust/Python Interop
 
 - [PyO3](https://pyo3.rs/)
+
+# Misc Rust and Python Commonalities
+
+- Both languages prefer `snake_case` naming over `lowerCamelCase`
+- Neither language is controlled by a single company
