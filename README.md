@@ -10,9 +10,10 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Package Repository | [crates.io][crates.io] | [PyPI][PyPI]
 | Package Management | [Cargo][Cargo] | [Poetry][Poetry]
 | Build Executables | [Cargo][Cargo] | [PyInstaller][PyInstaller]
+| Type Checking | [Cargo][Cargo] | [Mypy]
 | Code Formatting | [Rustfmt][Rustfmt] | [Black][Black], [isort][isort]
 | Linting | [Clippy][Clippy] | [Flake8][Flake8]
-| Unit Testing | [`#[test]`][test] | [pytest][pytest],
+| Unit Testing | [`#[test]`][test] | [pytest][pytest]
 | Scripts | [cargo-script][cargo-script] | [Nox][Nox]
 
 [rustup]: https://www.rust-lang.org/tools/install
@@ -23,6 +24,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Cargo]: https://doc.rust-lang.org/cargo/
 [Poetry]: https://python-poetry.org/
 [PyInstaller]: https://pyinstaller.org/en/stable/
+[Mypy]: https://mypy.readthedocs.io/en/stable/
 [Rustfmt]: https://rust-lang.github.io/rustfmt
 [Black]: https://black.readthedocs.io/en/stable/
 [isort]: https://pycqa.github.io/isort/
@@ -32,3 +34,22 @@ This repository provides a mapping from Rust tooling and language features to Py
 [pytest]: https://docs.pytest.org/
 [cargo-script]: https://github.com/DanielKeep/cargo-script
 [Nox]: https://nox.thea.codes/en/stable/
+
+# Environments
+
+| Environment | Rust | Python
+| - | - | -
+| WASM | [wasm-pack][wasm-pack] | [PyScript][PyScript], [Pyodide][Pyodide], [CPython WASM][CPython WASM]
+| Embedded | [Embedded Rust][Embedded Rust] | [MicroPython][MicroPython], [CircuitPython][CircuitPython]
+
+[wasm-pack]: https://rustwasm.github.io/
+[PyScript]: https://pyscript.net/
+[Pyodide]: https://pyodide.org/en/stable/
+[CPython WASM]: https://github.com/ethanhs/python-wasm
+[Embedded Rust]: https://docs.rust-embedded.org/book/
+[MicroPython]: https://micropython.org/
+[CircuitPython]: https://circuitpython.org/
+
+# Rust/Python Interop
+
+- [PyO3](https://pyo3.rs/)
