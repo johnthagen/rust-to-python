@@ -60,6 +60,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Interface | [`trait`][trait] | [`Protocol`][Protocol]
 | Generics | [`<T>`][Rust Generic] | [`list[str]` etc.][PEP 585], [`TypeVar`][TypeVar], [`Generic`][Generic]
 | Pattern Matching | [`match`][Pattern Syntax] | [`match`][PEP 634]
+| Anonymous Function | [`\|x\| { x + 1 }`][Closure] | [`lambda x: x + 1`][Lambda]
 | Foreign Function Interface | [FFI][Rust FFI] | [CFFI][CFFI]
 
 [trait]: https://doc.rust-lang.org/book/ch10-02-traits.html
@@ -70,6 +71,8 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Generic]: https://docs.python.org/3/library/typing.html#typing.Generic
 [Pattern Syntax]: https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
 [PEP 634]: https://peps.python.org/pep-0634/
+[Closure]: https://doc.rust-lang.org/book/ch13-01-closures.html
+[Lambda]: https://docs.python.org/3/reference/expressions.html#lambda
 [Rust FFI]: https://doc.rust-lang.org/nomicon/ffi.html
 [CFFI]: https://cffi.readthedocs.io/en/latest/
 
