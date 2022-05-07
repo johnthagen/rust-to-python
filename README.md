@@ -63,7 +63,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Fixed-sized Numerics | `u8`, `u16`, etc. | [NumPy Data Types][NumPy Data Types]
 | Foreign Function Interface | [FFI][Rust FFI] | [CFFI][CFFI]
 | Result | [`Result`][Result] | [`returns.Result`][returns Result]
-| Optional | [`Option`][Option] | `T \| None`, [`returns.Maybe`][Maybe]
+| Optional | [`Option`][Option] | [`T \| None`][Optional], [`returns.Maybe`][Maybe]
 
 [trait]: https://doc.rust-lang.org/book/ch10-02-traits.html
 [Protocol]: https://docs.python.org/3/library/typing.html#typing.Protocol
@@ -80,6 +80,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Result]: https://doc.rust-lang.org/std/result/
 [returns Result]: https://returns.readthedocs.io/en/latest/pages/result.html
 [Option]: https://doc.rust-lang.org/std/option/
+[Optional]: https://docs.python.org/3/library/typing.html#typing.Optional
 [Maybe]: https://returns.readthedocs.io/en/latest/pages/maybe.html
 
 # Rust/Python Interop
