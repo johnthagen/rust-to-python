@@ -61,7 +61,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Generics | [`<T>`][Rust Generic] | [`list[str]` etc.][PEP 585], [`TypeVar`][TypeVar], [`Generic`][Generic]
 | Algebraic Data Type | [`enum`][enum] | [`Enum`][Enum], [`Union` of `dataclass`][union-dataclass]
 | Data Type | [`struct`][struct] | [`@dataclass`][dataclass]
-| Fixed-sized Numerics | `u8`, `u16`, etc. | [NumPy Data Types][NumPy Data Types]
+| Fixed-sized Numerics | [`u8`, `u16`, etc.][Rust Data Types] | [NumPy Data Types][NumPy Data Types]
 | Foreign Function Interface | [FFI][Rust FFI] | [CFFI][CFFI]
 | Result | [`Result`][Result] | [`returns.Result`][returns Result]
 | Optional | [`Option`][Option] | [`T \| None`][Optional], [`returns.Maybe`][Maybe]
@@ -77,6 +77,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [union-dataclass]: https://stackoverflow.com/a/71519690
 [struct]: https://doc.rust-lang.org/book/ch05-01-defining-structs.html
 [dataclass]: https://docs.python.org/3/library/dataclasses.html
+[Rust Data Types]: https://doc.rust-lang.org/book/ch03-02-data-types.html
 [NumPy Data Types]: https://numpy.org/doc/stable/user/basics.types.html
 [Rust FFI]: https://doc.rust-lang.org/nomicon/ffi.html
 [CFFI]: https://cffi.readthedocs.io/en/latest/
