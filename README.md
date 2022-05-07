@@ -35,6 +35,9 @@ This repository provides a mapping from Rust tooling and language features to Py
 [cargo-script]: https://github.com/DanielKeep/cargo-script
 [Nox]: https://nox.thea.codes/en/stable/
 
+> For a Python project example that incorporates these tools, see 
+> <https://github.com/johnthagen/python-blueprint>.
+
 # Environments
 
 | Environment | Rust | Python
