@@ -58,7 +58,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Feature | Rust | Python
 | - | - | -
 | Interface | [`trait`][trait] | [`Protocol`][Protocol]
-| Generics | [`<T>`][Rust Generic] | [`Generic`][Generic]
+| Generics | [`<T>`][Rust Generic] | [`list[str]` etc.][PEP 585], [`TypeVar`][TypeVar], [`Generic`][Generic]
 | Algebraic Data Type | [`enum`][enum] | [`Enum`][Enum], [`Union` of `dataclass`][union-dataclass]
 | Fixed-sized Numerics | `u8`, `u16`, etc. | [NumPy Data Types][NumPy Data Types]
 | Foreign Function Interface | [FFI][Rust FFI] | [CFFI][CFFI]
@@ -66,6 +66,8 @@ This repository provides a mapping from Rust tooling and language features to Py
 [trait]: https://doc.rust-lang.org/book/ch10-02-traits.html
 [Protocol]: https://docs.python.org/3/library/typing.html#typing.Protocol
 [Rust Generic]: https://doc.rust-lang.org/book/ch10-01-syntax.html
+[PEP 585]: https://peps.python.org/pep-0585/
+[TypeVar]: https://docs.python.org/3/library/typing.html#generics
 [Generic]: https://docs.python.org/3/library/typing.html#typing.Generic
 [enum]: https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html
 [Enum]: https://docs.python.org/3/library/enum.html
