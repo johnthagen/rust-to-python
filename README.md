@@ -15,6 +15,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Linting | [Clippy][Clippy] | [Flake8][Flake8]
 | Unit Testing | [`#[test]`][test] | [pytest][pytest]
 | Scripts | [cargo-script][cargo-script] | [Nox][Nox]
+| Upgrade to New Language Features | [`cargo fix`][cargo-fix] | [`pyupgrade`][pyupgrade]
 
 [rustup]: https://www.rust-lang.org/tools/install
 [pyenv]: https://github.com/pyenv/pyenv
@@ -34,6 +35,8 @@ This repository provides a mapping from Rust tooling and language features to Py
 [pytest]: https://docs.pytest.org/
 [cargo-script]: https://github.com/DanielKeep/cargo-script
 [Nox]: https://nox.thea.codes/en/stable/
+[cargo-fix]: https://github.com/rust-lang/rustfix
+[pyupgrade]: https://github.com/asottile/pyupgrade
 
 > For a Python project example that incorporates these tools, see 
 > [python-blueprint](https://github.com/johnthagen/python-blueprint).
