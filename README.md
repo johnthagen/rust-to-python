@@ -109,5 +109,5 @@ This repository provides a mapping from Rust tooling and language features to Py
 # Misc Rust and Python Similarities
 
 - Both languages prefer `snake_case` naming over `lowerCamelCase`
-- Both languages use suffix type syntax (e.g. `x: int` / `x: i32`
+- Both languages use suffix type syntax (e.g. `x: int` / `x: i32`)
 - Neither language is controlled by a single company
