@@ -12,7 +12,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Build Executables | [Cargo][Cargo] | [PyInstaller][PyInstaller]
 | Type Checking | [Cargo][Cargo] | [Mypy]
 | Code Formatting | [Rustfmt][Rustfmt] | [Black][Black], [isort][isort]
-| Linting | [Clippy][Clippy] | [Flake8][Flake8]
+| Linting | [Clippy][Clippy] | [Ruff][Ruff], [Flake8][Flake8]
 | Unit Testing | [`#[test]`][test] | [pytest][pytest]
 | Scripts | [cargo-script][cargo-script] | [Nox][Nox]
 | Upgrade to New Language Features | [`cargo fix`][cargo-fix] | [`pyupgrade`][pyupgrade]
@@ -30,6 +30,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Black]: https://black.readthedocs.io/en/stable/
 [isort]: https://pycqa.github.io/isort/
 [Clippy]: https://github.com/rust-lang/rust-clippy
+[Ruff]: https://github.com/charliermarsh/ruff
 [Flake8]: https://flake8.pycqa.org/en/latest/
 [test]: https://doc.rust-lang.org/book/ch11-01-writing-tests.html
 [pytest]: https://docs.pytest.org/
