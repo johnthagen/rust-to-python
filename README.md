@@ -14,7 +14,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Code Formatting | [Rustfmt][Rustfmt] | [Black][Black], [isort][isort]
 | Linting | [Clippy][Clippy] | [Ruff][Ruff], [Flake8][Flake8]
 | Unit Testing | [`#[test]`][test] | [pytest][pytest]
-| Scripts | [cargo-script][cargo-script] | [Nox][Nox]
+| Scripts | [cargo-script][cargo-script] | [Nox][Nox], [Poe the Poet][poe-the-poet]
 | Upgrade to New Language Features | [`cargo fix`][cargo-fix] | [`pyupgrade`][pyupgrade]
 
 [rustup]: https://www.rust-lang.org/tools/install
@@ -36,6 +36,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [pytest]: https://docs.pytest.org/
 [cargo-script]: https://github.com/DanielKeep/cargo-script
 [Nox]: https://nox.thea.codes/en/stable/
+[poe-the-poet]: https://github.com/nat-n/poethepoet
 [cargo-fix]: https://github.com/rust-lang/rustfix
 [pyupgrade]: https://github.com/asottile/pyupgrade
 
