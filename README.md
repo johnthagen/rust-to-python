@@ -11,11 +11,11 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Package Management | [Cargo][Cargo] | [Poetry][Poetry]
 | Build Executables | [Cargo][Cargo] | [PyInstaller][PyInstaller]
 | Type Checking | [Cargo][Cargo] | [Mypy]
-| Code Formatting | [Rustfmt][Rustfmt] | [Black][Black], [isort][isort]
-| Linting | [Clippy][Clippy] | [Ruff][Ruff], [Flake8][Flake8]
+| Code Formatting | [Rustfmt][Rustfmt] | [Black][Black], [Ruff `isort` rules][Ruff]
+| Linting | [Clippy][Clippy] | [Ruff][Ruff]
 | Unit Testing | [`#[test]`][test] | [pytest][pytest]
 | Scripts | [cargo-script][cargo-script] | [Nox][Nox], [Poe the Poet][poe-the-poet]
-| Upgrade to New Language Features | [`cargo fix`][cargo-fix] | [`pyupgrade`][pyupgrade]
+| Upgrade to New Language Features | [`cargo fix`][cargo-fix] | [Ruff `pyupgrade` rules][Ruff]
 
 [rustup]: https://www.rust-lang.org/tools/install
 [pyenv]: https://github.com/pyenv/pyenv
