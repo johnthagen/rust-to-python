@@ -30,7 +30,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Black]: https://black.readthedocs.io/en/stable/
 [isort]: https://pycqa.github.io/isort/
 [Clippy]: https://github.com/rust-lang/rust-clippy
-[Ruff]: https://github.com/charliermarsh/ruff
+[Ruff]: https://github.com/astral-sh/ruff
 [Flake8]: https://flake8.pycqa.org/en/latest/
 [test]: https://doc.rust-lang.org/book/ch11-01-writing-tests.html
 [pytest]: https://docs.pytest.org/
@@ -107,6 +107,17 @@ This repository provides a mapping from Rust tooling and language features to Py
 # Rust/Python Interop
 
 - [PyO3](https://pyo3.rs/)
+
+# Popular Python Packages Implemented in Rust
+
+- [Ruff][Ruff]
+- [Pydantic][Pydantic]
+- [cryptography][cryptography]
+- [Polars][Polars]
+
+[Pydantic]: https://github.com/pydantic/pydantic
+[cryptography]: https://github.com/pyca/cryptography
+[Polars]: https://github.com/pola-rs/polars
 
 # Misc Rust and Python Similarities
 
