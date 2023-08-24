@@ -63,7 +63,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Feature | Rust | Python
 | - | - | -
 | Interface | [`trait`][trait] | [`Protocol`][Protocol]
-| Generics | [`<T>`][Rust Generic] | [`list[T]` etc.][PEP 585], [`TypeVar`][TypeVar], [`Generic`][Generic]
+| Generics | [`<T>`][Rust Generic] | [`list[T]` etc.][PEP 585], [`def f[T]`, `class C[T]`][PEP 695]
 | Pattern Matching | [`match`][Pattern Syntax] | [`match`][PEP 634]
 | Anonymous Function | [`\|x\| { x + 1 }`][Closure] | [`lambda x: x + 1`][Lambda]
 | Foreign Function Interface | [FFI][Rust FFI] | [CFFI][CFFI]
@@ -72,8 +72,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Protocol]: https://docs.python.org/3/library/typing.html#typing.Protocol
 [Rust Generic]: https://doc.rust-lang.org/book/ch10-01-syntax.html
 [PEP 585]: https://peps.python.org/pep-0585/
-[TypeVar]: https://docs.python.org/3/library/typing.html#generics
-[Generic]: https://docs.python.org/3/library/typing.html#typing.Generic
+[PEP 695]: https://peps.python.org/pep-0695/
 [Pattern Syntax]: https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
 [PEP 634]: https://peps.python.org/pep-0634/
 [Closure]: https://doc.rust-lang.org/book/ch13-01-closures.html
