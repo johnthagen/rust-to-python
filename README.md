@@ -6,20 +6,19 @@ This repository provides a mapping from Rust tooling and language features to Py
 
 | Tool | Rust | Python
 | - | - | -
-| Multi-version Installation | [rustup][rustup] | [pyenv][pyenv], [pyenv-win][pyenv-win]
 | Package Repository | [crates.io][crates.io] | [PyPI][PyPI]
-| Package Management | [Cargo][Cargo] | [Poetry][Poetry]
+| Multi-version Installation | [rustup][rustup] | [`uv python` command][uv]
+| Package Management | [Cargo][Cargo] | [Poetry][Poetry], [uv][uv]
 | Build Executables | [Cargo][Cargo] | [PyInstaller][PyInstaller]
 | Type Checking | [Cargo][Cargo] | [Mypy]
 | Code Formatting | [Rustfmt][Rustfmt] | [Ruff Formatter][Ruff], [Ruff `isort` rules][Ruff]
 | Linting | [Clippy][Clippy] | [Ruff][Ruff]
 | Unit Testing | [`#[test]`][test] | [pytest][pytest]
-| Scripts | [cargo-script][cargo-script] | [Nox][Nox], [Poe the Poet][poe-the-poet]
+| Scripts | [cargo-script][cargo-script] | [`uv run`][uv], [Nox][Nox]
 | Upgrade to New Language Features | [`cargo fix`][cargo-fix] | [Ruff `pyupgrade` rules][Ruff]
 
 [rustup]: https://www.rust-lang.org/tools/install
-[pyenv]: https://github.com/pyenv/pyenv
-[pyenv-win]: https://github.com/pyenv-win/pyenv-win
+[uv]: https://docs.astral.sh/uv/
 [crates.io]: https://crates.io/
 [PyPI]: https://pypi.org/
 [Cargo]: https://doc.rust-lang.org/cargo/
@@ -35,7 +34,6 @@ This repository provides a mapping from Rust tooling and language features to Py
 [pytest]: https://docs.pytest.org/
 [cargo-script]: https://github.com/DanielKeep/cargo-script
 [Nox]: https://nox.thea.codes/en/stable/
-[poe-the-poet]: https://github.com/nat-n/poethepoet
 [cargo-fix]: https://github.com/rust-lang/rustfix
 [pyupgrade]: https://github.com/asottile/pyupgrade
 
@@ -109,6 +107,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 # Popular Python Packages Implemented in Rust
 
 - [Ruff][Ruff]
+- [uv][uv]
 - [Pydantic][Pydantic]
 - [cryptography][cryptography]
 - [Polars][Polars]
