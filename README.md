@@ -8,7 +8,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | - | - | -
 | Package Repository | [crates.io][crates.io] | [PyPI][PyPI]
 | Multi-version Installation | [rustup][rustup] | [`uv python` command][uv]
-| Package Management | [Cargo][Cargo] | [Poetry][Poetry], [uv][uv]
+| Package Management | [Cargo][Cargo] | [uv][uv]
 | Build Executables | [Cargo][Cargo] | [PyInstaller][PyInstaller]
 | Type Checking | [Cargo][Cargo] | [Mypy]
 | Code Formatting | [Rustfmt][Rustfmt] | [Ruff Formatter][Ruff], [Ruff `isort` rules][Ruff]
@@ -22,7 +22,6 @@ This repository provides a mapping from Rust tooling and language features to Py
 [crates.io]: https://crates.io/
 [PyPI]: https://pypi.org/
 [Cargo]: https://doc.rust-lang.org/cargo/
-[Poetry]: https://python-poetry.org/
 [PyInstaller]: https://pyinstaller.org/en/stable/
 [Mypy]: https://mypy.readthedocs.io/en/stable/
 [Rustfmt]: https://rust-lang.github.io/rustfmt
