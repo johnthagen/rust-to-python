@@ -110,10 +110,12 @@ This repository provides a mapping from Rust tooling and language features to Py
 - [Pydantic][Pydantic]
 - [cryptography][cryptography]
 - [Polars][Polars]
+- [RustPython - A Python interpretter written in Rust][RustPython]
 
 [Pydantic]: https://github.com/pydantic/pydantic
 [cryptography]: https://github.com/pyca/cryptography
 [Polars]: https://github.com/pola-rs/polars
+[RustPython]: https://github.com/RustPython/RustPython
 
 # Misc Rust and Python Similarities
 
