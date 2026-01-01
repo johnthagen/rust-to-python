@@ -10,7 +10,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 | Multi-version Installation | [rustup][rustup] | [`uv python` command][uv]
 | Package Management | [Cargo][Cargo] | [uv][uv]
 | Build Executables | [Cargo][Cargo] | [PyInstaller][PyInstaller]
-| Type Checking | [Cargo][Cargo] | [Mypy]
+| Type Checking | [Cargo][Cargo] | [Mypy], [ty][ty]
 | Code Formatting | [Rustfmt][Rustfmt] | [Ruff Formatter][Ruff], [Ruff `isort` rules][Ruff]
 | Linting | [Clippy][Clippy] | [Ruff][Ruff]
 | Unit Testing | [`#[test]`][test] | [pytest][pytest]
@@ -24,6 +24,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Cargo]: https://doc.rust-lang.org/cargo/
 [PyInstaller]: https://pyinstaller.org/en/stable/
 [Mypy]: https://mypy.readthedocs.io/en/stable/
+[ty]: https://docs.astral.sh/ty/
 [Rustfmt]: https://rust-lang.github.io/rustfmt
 [isort]: https://pycqa.github.io/isort/
 [Clippy]: https://github.com/rust-lang/rust-clippy
@@ -107,14 +108,17 @@ This repository provides a mapping from Rust tooling and language features to Py
 
 - [Ruff][Ruff]
 - [uv][uv]
+- [ty][ty]
 - [Pydantic][Pydantic]
 - [cryptography][cryptography]
 - [Polars][Polars]
+- [Zensical][Zensical]
 - [RustPython - A Python interpretter written in Rust][RustPython]
 
 [Pydantic]: https://github.com/pydantic/pydantic
 [cryptography]: https://github.com/pyca/cryptography
 [Polars]: https://github.com/pola-rs/polars
+[Zensical]: https://zensical.org/
 [RustPython]: https://github.com/RustPython/RustPython
 
 # Misc Rust and Python Similarities
