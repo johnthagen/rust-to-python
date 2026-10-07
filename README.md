@@ -114,6 +114,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 - [Polars][Polars]
 - [rustworkx][rustworkx]
 - [Zensical][Zensical]
+- [orjson][orjson]
 - [RustPython - A Python interpreter written in Rust][RustPython]
 
 [Pydantic]: https://github.com/pydantic/pydantic
@@ -121,6 +122,7 @@ This repository provides a mapping from Rust tooling and language features to Py
 [Polars]: https://github.com/pola-rs/polars
 [rustworkx]: https://www.rustworkx.org/
 [Zensical]: https://zensical.org/
+[orjson]: https://github.com/ijl/orjson
 [RustPython]: https://github.com/RustPython/RustPython
 
 # Misc Rust and Python Similarities
